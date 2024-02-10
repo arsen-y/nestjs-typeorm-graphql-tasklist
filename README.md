@@ -1,4 +1,14 @@
 <p align="center">
+  NestJS + typeorm + graphql + restapi totolist sample. With authorization. 
+  package.json:
+
+  "start:dev": "set STAGE=dev && nest start --watch" for windows
+  "start:dev": "STAGE=dev nest start --watch" for *NIX and MAC
+  
+</p>
+
+
+<p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
