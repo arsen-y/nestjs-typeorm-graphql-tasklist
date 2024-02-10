@@ -1,9 +1,9 @@
 <p align="center">
-  NestJS + typeorm + graphql + restapi totolist sample. With authorization. 
-  package.json:
+  NestJS + typeorm + graphql + restapi totolist sample. With authorization. <br> <br>
+  package.json: <br>
 
-  "start:dev": "set STAGE=dev && nest start --watch" for windows
-  "start:dev": "STAGE=dev nest start --watch" for *NIX and MAC
+  "start:dev": "set STAGE=dev && nest start --watch" for windows <br>
+  "start:dev": "STAGE=dev nest start --watch" for *NIX and MAC <br>
   
 </p>
 
