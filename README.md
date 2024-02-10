@@ -36,7 +36,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-[circleci-image]: https://github.com/arsen-y/nestjs-typeorm-graphql-tasklist/blob/main/Screenshot_83.jpg?raw=true
+![Screenshot](Screenshot_83.jpg)
+![Screenshot](Screenshot_84.jpg)
+![Screenshot](Screenshot_85.jpg)
 
 ## Installation
 
