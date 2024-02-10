@@ -1,0 +1,44 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Task {
+  id: ID!
+  title: String!
+  description: String!
+  status: String!
+  user: User!
+}
+
+type User {
+  id: ID!
+  username: String!
+  tasks: [Task!]!
+}
+
+type Query {
+  getTasks(filterInput: GetTasksFilterInput!): [Task!]!
+  getTaskById(id: String!): Task!
+  getUsers: [User!]!
+}
+
+input GetTasksFilterInput {
+  status: String
+  search: String
+}
+
+type Mutation {
+  deleteTaskById(id: String!): [Task!]!
+  createTask(createTaskInput: CreateTaskInput!): Task!
+  updateTaskStatus(updateTaskStatusInput: UPdateTaskStatusInput!): Task!
+}
+
+input CreateTaskInput {
+  title: String!
+  description: String!
+}
+
+input UPdateTaskStatusInput {
+  id: String!
+  status: String!
+}
