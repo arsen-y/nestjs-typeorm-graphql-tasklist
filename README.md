@@ -1,5 +1,5 @@
 <p align="center">
-  NestJS + typeorm + graphql + restapi totolist sample. With authorization. <br> <br>
+  NestJS + typeorm + graphql + restapi totolist modern backend application sample. With authorization. <br> <br>
   package.json: <br>
 
   "start:dev": "set STAGE=dev && nest start --watch" for windows <br>
