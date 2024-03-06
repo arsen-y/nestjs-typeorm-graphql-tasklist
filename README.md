@@ -2,6 +2,10 @@
   NestJS + typeorm + graphql + restapi totolist modern backend application sample. With authorization. <br> <br>
   package.json: <br>
 
+Frontend TaskList Next.js project: [https://github.com/arsen-y/nestjs-typeorm-graphql-tasklist](https://github.com/arsen-y/Frontend-Next.js-TaskList/blob/main/README.md) <br>
+
+My Telegram: https://t.me/Arsenyy007 <br>
+<br><br>
   "start:dev": "set STAGE=dev && nest start --watch" for windows <br>
   "start:dev": "STAGE=dev nest start --watch" for *NIX and MAC <br>
   
